@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeipnetworkexchange
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeIpNetworkExchange) validateOverrideLogicalIdParameters
 }
 
 func validateComputeIpNetworkExchange_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpNetworkExchange_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpNetworkExchange_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

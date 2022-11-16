@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeinstance
 
@@ -66,6 +65,14 @@ func (c *jsiiProxy_ComputeInstance) validatePutTimeoutsParameters(value *Compute
 }
 
 func validateComputeInstance_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeInstance_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeInstance_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

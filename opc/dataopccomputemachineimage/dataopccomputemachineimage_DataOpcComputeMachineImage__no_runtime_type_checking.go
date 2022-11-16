@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package dataopccomputemachineimage
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataOpcComputeMachineImage) validateOverrideLogicalIdParamete
 }
 
 func validateDataOpcComputeMachineImage_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataOpcComputeMachineImage_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataOpcComputeMachineImage_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

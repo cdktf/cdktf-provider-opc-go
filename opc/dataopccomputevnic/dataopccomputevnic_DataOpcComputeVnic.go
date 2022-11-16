@@ -2,10 +2,10 @@ package dataopccomputevnic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/dataopccomputevnic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -458,6 +458,44 @@ func DataOpcComputeVnic_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeVnic_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeVnic_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

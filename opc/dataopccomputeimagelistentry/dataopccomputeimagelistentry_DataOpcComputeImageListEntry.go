@@ -2,10 +2,10 @@ package dataopccomputeimagelistentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/dataopccomputeimagelistentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -505,6 +505,44 @@ func DataOpcComputeImageListEntry_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeImageListEntry_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeImageListEntry_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeImageListEntry_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeImageListEntry_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

@@ -2,10 +2,10 @@ package computeimagelistentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/computeimagelistentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -567,6 +567,44 @@ func ComputeImageListEntry_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ComputeImageListEntry_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateComputeImageListEntry_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ComputeImageListEntry_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateComputeImageListEntry_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

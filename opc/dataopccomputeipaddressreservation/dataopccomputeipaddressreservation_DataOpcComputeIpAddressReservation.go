@@ -2,10 +2,10 @@ package dataopccomputeipaddressreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/dataopccomputeipaddressreservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -458,6 +458,44 @@ func DataOpcComputeIpAddressReservation_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeIpAddressReservation_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeIpAddressReservation_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeIpAddressReservation_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeIpAddressReservation_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

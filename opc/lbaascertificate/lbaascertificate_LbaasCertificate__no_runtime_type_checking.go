@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package lbaascertificate
 
@@ -54,6 +53,14 @@ func (l *jsiiProxy_LbaasCertificate) validateOverrideLogicalIdParameters(newLogi
 }
 
 func validateLbaasCertificate_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasCertificate_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasCertificate_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

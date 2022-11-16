@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computestoragevolume
 
@@ -58,6 +57,14 @@ func (c *jsiiProxy_ComputeStorageVolume) validatePutTimeoutsParameters(value *Co
 }
 
 func validateComputeStorageVolume_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeStorageVolume_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeStorageVolume_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

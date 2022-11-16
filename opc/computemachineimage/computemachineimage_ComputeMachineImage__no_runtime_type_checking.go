@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computemachineimage
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeMachineImage) validateOverrideLogicalIdParameters(newL
 }
 
 func validateComputeMachineImage_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeMachineImage_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeMachineImage_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeipaddressprefixset
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeIpAddressPrefixSet) validateOverrideLogicalIdParameter
 }
 
 func validateComputeIpAddressPrefixSet_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpAddressPrefixSet_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpAddressPrefixSet_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

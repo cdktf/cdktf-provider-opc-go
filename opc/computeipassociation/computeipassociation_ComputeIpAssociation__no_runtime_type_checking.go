@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeipassociation
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeIpAssociation) validateOverrideLogicalIdParameters(new
 }
 
 func validateComputeIpAssociation_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpAssociation_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpAssociation_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package dataopccomputevnic
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataOpcComputeVnic) validateOverrideLogicalIdParameters(newLo
 }
 
 func validateDataOpcComputeVnic_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataOpcComputeVnic_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataOpcComputeVnic_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

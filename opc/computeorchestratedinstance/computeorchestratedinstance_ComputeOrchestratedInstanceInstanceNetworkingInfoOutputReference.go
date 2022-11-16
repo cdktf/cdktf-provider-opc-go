@@ -2,9 +2,9 @@ package computeorchestratedinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-opc-go/opc/computeorchestratedinstance/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/computeorchestratedinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

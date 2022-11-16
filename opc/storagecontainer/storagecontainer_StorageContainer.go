@@ -2,10 +2,10 @@ package storagecontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/storagecontainer/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/storagecontainer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -803,6 +803,44 @@ func StorageContainer_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.storageContainer.StorageContainer",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func StorageContainer_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateStorageContainer_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.storageContainer.StorageContainer",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func StorageContainer_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateStorageContainer_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.storageContainer.StorageContainer",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

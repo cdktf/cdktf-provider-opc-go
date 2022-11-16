@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computesecurityapplication
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeSecurityApplication) validateOverrideLogicalIdParamete
 }
 
 func validateComputeSecurityApplication_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSecurityApplication_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSecurityApplication_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

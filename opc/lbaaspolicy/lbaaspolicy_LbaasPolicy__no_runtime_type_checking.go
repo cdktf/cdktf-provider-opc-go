@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package lbaaspolicy
 
@@ -94,6 +93,14 @@ func (l *jsiiProxy_LbaasPolicy) validatePutTrustedCertificatePolicyParameters(va
 }
 
 func validateLbaasPolicy_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasPolicy_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasPolicy_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

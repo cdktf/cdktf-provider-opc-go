@@ -2,10 +2,10 @@ package lbaaslistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/lbaaslistener/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -878,6 +878,44 @@ func LbaasListener_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.lbaasListener.LbaasListener",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func LbaasListener_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateLbaasListener_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.lbaasListener.LbaasListener",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func LbaasListener_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateLbaasListener_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.lbaasListener.LbaasListener",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

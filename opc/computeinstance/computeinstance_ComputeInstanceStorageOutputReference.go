@@ -2,9 +2,9 @@ package computeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/computeinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 

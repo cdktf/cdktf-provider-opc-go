@@ -2,10 +2,10 @@ package dataopccomputesshkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputesshkey/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/dataopccomputesshkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,6 +425,44 @@ func DataOpcComputeSshKey_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeSshKey_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeSshKey_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataOpcComputeSshKey_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataOpcComputeSshKey_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

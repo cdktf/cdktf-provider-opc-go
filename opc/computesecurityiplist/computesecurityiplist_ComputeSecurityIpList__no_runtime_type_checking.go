@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computesecurityiplist
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeSecurityIpList) validateOverrideLogicalIdParameters(ne
 }
 
 func validateComputeSecurityIpList_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSecurityIpList_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSecurityIpList_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

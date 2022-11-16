@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeacl
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeAcl) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func validateComputeAcl_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeAcl_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeAcl_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

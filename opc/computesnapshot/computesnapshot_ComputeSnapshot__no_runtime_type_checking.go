@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computesnapshot
 
@@ -58,6 +57,14 @@ func (c *jsiiProxy_ComputeSnapshot) validatePutTimeoutsParameters(value *Compute
 }
 
 func validateComputeSnapshot_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSnapshot_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeSnapshot_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

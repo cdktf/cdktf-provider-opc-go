@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeroute
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeRoute) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func validateComputeRoute_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeRoute_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeRoute_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

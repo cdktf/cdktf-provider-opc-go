@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computestorageattachment
 
@@ -58,6 +57,14 @@ func (c *jsiiProxy_ComputeStorageAttachment) validatePutTimeoutsParameters(value
 }
 
 func validateComputeStorageAttachment_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeStorageAttachment_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeStorageAttachment_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

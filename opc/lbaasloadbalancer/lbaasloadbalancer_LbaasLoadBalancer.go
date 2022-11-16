@@ -2,10 +2,10 @@ package lbaasloadbalancer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/lbaasloadbalancer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -880,6 +880,44 @@ func LbaasLoadBalancer_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func LbaasLoadBalancer_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateLbaasLoadBalancer_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func LbaasLoadBalancer_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateLbaasLoadBalancer_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

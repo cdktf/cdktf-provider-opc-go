@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package storageobject
 
@@ -54,6 +53,14 @@ func (s *jsiiProxy_StorageObject) validateOverrideLogicalIdParameters(newLogical
 }
 
 func validateStorageObject_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateStorageObject_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateStorageObject_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

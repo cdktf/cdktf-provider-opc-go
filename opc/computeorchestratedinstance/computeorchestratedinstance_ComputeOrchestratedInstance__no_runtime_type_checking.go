@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeorchestratedinstance
 
@@ -62,6 +61,14 @@ func (c *jsiiProxy_ComputeOrchestratedInstance) validatePutTimeoutsParameters(va
 }
 
 func validateComputeOrchestratedInstance_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeOrchestratedInstance_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeOrchestratedInstance_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

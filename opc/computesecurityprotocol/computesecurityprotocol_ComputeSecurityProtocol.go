@@ -2,10 +2,10 @@ package computesecurityprotocol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/computesecurityprotocol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -639,6 +639,44 @@ func ComputeSecurityProtocol_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ComputeSecurityProtocol_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateComputeSecurityProtocol_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func ComputeSecurityProtocol_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateComputeSecurityProtocol_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

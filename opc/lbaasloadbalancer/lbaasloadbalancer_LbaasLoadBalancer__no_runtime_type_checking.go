@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package lbaasloadbalancer
 
@@ -54,6 +53,14 @@ func (l *jsiiProxy_LbaasLoadBalancer) validateOverrideLogicalIdParameters(newLog
 }
 
 func validateLbaasLoadBalancer_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasLoadBalancer_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateLbaasLoadBalancer_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

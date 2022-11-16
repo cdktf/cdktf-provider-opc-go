@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package computeipreservation
 
@@ -54,6 +53,14 @@ func (c *jsiiProxy_ComputeIpReservation) validateOverrideLogicalIdParameters(new
 }
 
 func validateComputeIpReservation_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpReservation_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComputeIpReservation_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 
