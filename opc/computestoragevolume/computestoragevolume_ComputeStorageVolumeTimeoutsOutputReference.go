@@ -2,9 +2,9 @@ package computestoragevolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v2/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v3/jsii"
 
-	"github.com/cdktf/cdktf-provider-opc-go/opc/v2/computestoragevolume/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
