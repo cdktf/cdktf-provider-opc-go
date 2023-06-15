@@ -2,10 +2,10 @@ package lbaascertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v4/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-opc-go/opc/v5/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-opc-go/opc/v4/lbaascertificate/internal"
+	"github.com/cdktf/cdktf-provider-opc-go/opc/v5/lbaascertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
