@@ -7,6 +7,10 @@ package computestoragevolumesnapshot
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateGetStringMapAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validateOverrideLogicalIdParame
 }
 
 func (c *jsiiProxy_ComputeStorageVolumeSnapshot) validatePutTimeoutsParameters(value *ComputeStorageVolumeSnapshotTimeouts) error {
+	return nil
+}
+
+func validateComputeStorageVolumeSnapshot_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

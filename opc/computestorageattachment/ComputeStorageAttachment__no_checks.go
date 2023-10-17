@@ -7,6 +7,10 @@ package computestorageattachment
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (c *jsiiProxy_ComputeStorageAttachment) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStorageAttachment) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (c *jsiiProxy_ComputeStorageAttachment) validateGetStringMapAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ComputeStorageAttachment) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStorageAttachment) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeStorageAttachment) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (c *jsiiProxy_ComputeStorageAttachment) validateOverrideLogicalIdParameters
 }
 
 func (c *jsiiProxy_ComputeStorageAttachment) validatePutTimeoutsParameters(value *ComputeStorageAttachmentTimeouts) error {
+	return nil
+}
+
+func validateComputeStorageAttachment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

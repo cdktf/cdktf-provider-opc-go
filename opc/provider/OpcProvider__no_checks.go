@@ -15,6 +15,10 @@ func (o *jsiiProxy_OpcProvider) validateOverrideLogicalIdParameters(newLogicalId
 	return nil
 }
 
+func validateOpcProvider_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateOpcProvider_IsConstructParameters(x interface{}) error {
 	return nil
 }

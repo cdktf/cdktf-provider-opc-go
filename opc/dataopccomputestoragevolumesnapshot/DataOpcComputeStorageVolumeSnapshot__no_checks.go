@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataOpcComputeStorageVolumeSnapshot) validateOverrideLogicalI
 	return nil
 }
 
+func validateDataOpcComputeStorageVolumeSnapshot_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataOpcComputeStorageVolumeSnapshot_IsConstructParameters(x interface{}) error {
 	return nil
 }

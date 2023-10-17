@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataOpcComputeIpReservation) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func validateDataOpcComputeIpReservation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataOpcComputeIpReservation_IsConstructParameters(x interface{}) error {
 	return nil
 }

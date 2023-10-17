@@ -7,6 +7,10 @@ package lbaaslistener
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (l *jsiiProxy_LbaasListener) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasListener) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,11 +51,23 @@ func (l *jsiiProxy_LbaasListener) validateGetStringMapAttributeParameters(terraf
 	return nil
 }
 
+func (l *jsiiProxy_LbaasListener) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasListener) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
+func (l *jsiiProxy_LbaasListener) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasListener) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func validateLbaasListener_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

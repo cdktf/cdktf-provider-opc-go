@@ -7,6 +7,10 @@ package lbaasserverpool
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (l *jsiiProxy_LbaasServerPool) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasServerPool) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (l *jsiiProxy_LbaasServerPool) validateGetStringMapAttributeParameters(terr
 	return nil
 }
 
+func (l *jsiiProxy_LbaasServerPool) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasServerPool) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbaasServerPool) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -56,6 +68,10 @@ func (l *jsiiProxy_LbaasServerPool) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (l *jsiiProxy_LbaasServerPool) validatePutHealthCheckParameters(value *LbaasServerPoolHealthCheck) error {
+	return nil
+}
+
+func validateLbaasServerPool_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

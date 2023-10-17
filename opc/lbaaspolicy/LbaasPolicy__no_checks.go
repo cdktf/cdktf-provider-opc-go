@@ -7,6 +7,10 @@ package lbaaspolicy
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (l *jsiiProxy_LbaasPolicy) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasPolicy) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (l *jsiiProxy_LbaasPolicy) validateGetStringMapAttributeParameters(terrafor
 	return nil
 }
 
+func (l *jsiiProxy_LbaasPolicy) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasPolicy) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbaasPolicy) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -92,6 +104,10 @@ func (l *jsiiProxy_LbaasPolicy) validatePutSslNegotiationPolicyParameters(value 
 }
 
 func (l *jsiiProxy_LbaasPolicy) validatePutTrustedCertificatePolicyParameters(value *LbaasPolicyTrustedCertificatePolicy) error {
+	return nil
+}
+
+func validateLbaasPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

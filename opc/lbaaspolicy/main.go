@@ -14,6 +14,7 @@ func init() {
 		"@cdktf/provider-opc.lbaasPolicy.LbaasPolicy",
 		reflect.TypeOf((*LbaasPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationCookieStickinessPolicy", GoGetter: "ApplicationCookieStickinessPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationCookieStickinessPolicyInput", GoGetter: "ApplicationCookieStickinessPolicyInput"},
@@ -38,6 +39,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "loadBalancer", GoGetter: "LoadBalancer"},
@@ -46,6 +48,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "loadBalancerInput", GoGetter: "LoadBalancerInput"},
 			_jsii_.MemberProperty{JsiiProperty: "loadBalancingMechanismPolicy", GoGetter: "LoadBalancingMechanismPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "loadBalancingMechanismPolicyInput", GoGetter: "LoadBalancingMechanismPolicyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},

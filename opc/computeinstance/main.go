@@ -14,6 +14,7 @@ func init() {
 		"@cdktf/provider-opc.computeInstance.ComputeInstance",
 		reflect.TypeOf((*ComputeInstance)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityDomain", GoGetter: "AvailabilityDomain"},
@@ -49,6 +50,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "imageFormat", GoGetter: "ImageFormat"},
 			_jsii_.MemberProperty{JsiiProperty: "imageList", GoGetter: "ImageList"},
 			_jsii_.MemberProperty{JsiiProperty: "imageListInput", GoGetter: "ImageListInput"},
+			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceAttributes", GoGetter: "InstanceAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceAttributesInput", GoGetter: "InstanceAttributesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
@@ -56,6 +58,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "label", GoGetter: "Label"},
 			_jsii_.MemberProperty{JsiiProperty: "labelInput", GoGetter: "LabelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "networkingInfo", GoGetter: "NetworkingInfo"},

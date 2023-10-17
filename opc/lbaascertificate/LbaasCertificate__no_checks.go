@@ -7,6 +7,10 @@ package lbaascertificate
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (l *jsiiProxy_LbaasCertificate) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasCertificate) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,11 +51,23 @@ func (l *jsiiProxy_LbaasCertificate) validateGetStringMapAttributeParameters(ter
 	return nil
 }
 
+func (l *jsiiProxy_LbaasCertificate) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasCertificate) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
+func (l *jsiiProxy_LbaasCertificate) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbaasCertificate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func validateLbaasCertificate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 
