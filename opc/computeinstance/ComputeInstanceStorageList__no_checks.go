@@ -7,6 +7,10 @@ package computeinstance
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (c *jsiiProxy_ComputeInstanceStorageList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInstanceStorageList) validateGetParameters(index *float64) error {
 	return nil
 }

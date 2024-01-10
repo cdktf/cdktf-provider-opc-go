@@ -59,7 +59,15 @@ func (c *jsiiProxy_ComputeStorageAttachment) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ComputeStorageAttachment) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeStorageAttachment) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeStorageAttachment) validateMoveToIdParameters(id *string) error {
 	return nil
 }
 
